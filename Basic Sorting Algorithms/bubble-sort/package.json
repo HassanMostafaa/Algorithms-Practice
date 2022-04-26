@@ -1,0 +1,11 @@
+{
+  "name": "bubble-sort",
+  "version": "1.0.0",
+  "description": "Basic sorting algorithms practice day 1 (bubble-sort)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Hassan Mostafa",
+  "license": "ISC"
+}
