@@ -1,0 +1,26 @@
+
+// BUBBLE SORT I DONT REALLY UNDERSTAND (length - i - 1)??????
+// const bubbleSort = (arr) => {
+//   for (let i = 0; i < arr.length; i++) {
+//     for (let j = 0; j < arr.length - i - 1; j++) {
+//       if (arr[j] > arr[j + 1]) {
+//         let temp = arr[j];
+//         arr[j] = arr[j + 1];
+//         arr[j + 1] = temp;
+//       }
+//     }
+//   }
+//   console.log("sorted", arr);
+// };
+
+///////////////////////////////////////// old way i think is wrong or just selectionSort
+// for (let i = 0; i < arr.length; i++) {
+//   for (let j = i + 1; j < arr.length; j++) {
+//     if (arr[i] > arr[j]) {
+//      //swap item with the item next to it
+//       let temp = arr[i];
+//       arr[i] = arr[j];
+//       arr[j] = temp;
+//     }
+//   }
+// }
