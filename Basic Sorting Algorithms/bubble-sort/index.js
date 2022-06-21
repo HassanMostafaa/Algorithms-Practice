@@ -30,8 +30,10 @@ const genRandomNum = (max) => {
 
 // Bubble sort my way (the one makes sense xD)
 const bubbleSortMine = (arr) => {
- 
   let swapped;
+  // it will enter a for loop to map on every ele in arr at least once... 
+  // if didn't enter the if() statment that means the arr is sorted and will just leave the do while loop
+  // if it entered the if() statment will swap the unsorted two elements and enable to while loop for one more for loop
   do {
     swapped = false;
     for (let i = 0; i < arr.length - 1; i++) {
